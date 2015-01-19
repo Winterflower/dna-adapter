@@ -29,6 +29,15 @@ Shogun.
 This project incorporates materials from the following academic and open-source projects
 * kmersvm by Dongwon Lee (2011)
 
+##Installation
+At the moment, the data adapter consists of a single Python module `preprocess`.
+To use it, simply download the preprocess.py file by cloning the repo
+and make sure it is in Python import's search path. 
+One of the simplest ways to make sure the import statement can find preprocess
+is to add the path to preprocess.py to your PYTHONPATH environment variable.
+
+ 
+
 
 ##A simple tutorial
 The purpose of this tutorial is to help you get you FASTA formatted DNA sequence
